@@ -1,12 +1,38 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.plants {
+  display: flex;
+  gap: 52px;
+}
+.text {
+ text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  /* border: blue solid; */
 }
-
+.plant {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;  
+  /* border: red solid; */
+}
 .title {
   font-size: 36px;
   font-weight: 900;
