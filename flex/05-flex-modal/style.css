@@ -3,7 +3,16 @@
 html, body {
   height: 100%;
 }
-
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -14,14 +23,34 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.bottom {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-}
+  display: flex;
+  padding: 10px;
 
+}
+.right {
+  /* border: red solid; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.left{
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.text {
+  font-size: 16px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
